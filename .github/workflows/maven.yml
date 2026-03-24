@@ -27,7 +27,7 @@ jobs:
       with:
         java-version: '21'
         distribution: 'temurin'
-        cache: maven @otimiza o tempo de build
+        cache: maven #otimiza o tempo de build
     - name: Build and Tests with Maven
       run: mvn -B verify --file pom.xml
 
